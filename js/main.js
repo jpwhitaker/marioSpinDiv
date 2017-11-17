@@ -28,7 +28,7 @@ function animate(){
     
 
     if (frames != 0) {
-     setTimeout(animate, 1000 / fps)
+     setTimeout(animate, 1)
     
     }
     if (frames == 0) {
@@ -39,7 +39,7 @@ function animate(){
 
 
     div.style.transform = "rotateX("+x+"deg) rotateY("+y+"deg) translate3d(0,0,0)";
-    console.log("x: " + x + " y: " + y)
+    // console.log("x: " + x + " y: " + y)
 
 }
 
