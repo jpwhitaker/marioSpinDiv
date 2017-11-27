@@ -1,6 +1,6 @@
 var angle = 3 * Math.PI / 180;
-var cx = 0;
-var cy = 0;
+var cx = 200;
+var cy = 200;
 var a = 1;
 var b = 1
 var centerx = 0
